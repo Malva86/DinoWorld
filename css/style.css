@@ -1,8 +1,27 @@
-h1 {
-  font-size: 48px;
-  font-family: "Aboreto", cursive;
+:root {
+  --primary-font: "Aboreto", cursive;
+  --secondary-font: "Montserrat", sans-serif;
 }
 
-p {
-  font-family: "Montserrat", sans-serif;
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  padding: 25px;
+  font-family: var(--primary-font);
+}
+
+h2 {
+  font-size: 24px;
+  padding: 25px;
+  font-family: var(--secondary-font);
+}
+
+.greet {
+  margin-top: 10px;
+}
+
+.heading {
+  background-color: #e3f6f5;
+  padding: 60px;
+  text-align: center;
 }
