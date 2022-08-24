@@ -25,3 +25,39 @@ h2 {
   padding: 60px;
   text-align: center;
 }
+
+img {
+  height: 240px;
+  width: 480px;
+}
+
+.film-scene,
+.screen-shoot {
+  margin-top: 60px;
+}
+
+.button-link {
+  text-decoration: none;
+  border: 1px solid #0d6efd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.title-app {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .desc {
+    text-align: center;
+  }
+  .title-app {
+    text-align: center;
+  }
+
+  .button-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
