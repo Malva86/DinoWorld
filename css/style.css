@@ -17,6 +17,11 @@ h2 {
   font-family: var(--secondary-font);
 }
 
+p {
+  font-family: var(--secondary-font);
+  line-height: 25px;
+}
+
 .greet {
   margin-top: 10px;
 }
@@ -30,6 +35,12 @@ h2 {
 img {
   height: 240px;
   width: 480px;
+}
+
+.dino-wawel {
+  height: 600px;
+  width: 400px;
+  border-radius: 10px;
 }
 
 .film-scene,
@@ -103,4 +114,9 @@ img {
 
 .about-me-buttons {
   text-align: center;
+}
+
+.desc {
+  text-align: justify;
+  line-height: 25px;
 }
