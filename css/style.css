@@ -147,7 +147,8 @@ img {
 }
 
 .book-color,
-.film-color {
+.film-color,
+.games-color {
   background-color: var(--backcolor);
   border-radius: 5px;
 }
@@ -155,7 +156,9 @@ img {
 .book-color,
 .book-white,
 .film-color,
-.film-white {
+.film-white,
+.games-color,
+.games-white {
   padding: 15px;
 }
 
