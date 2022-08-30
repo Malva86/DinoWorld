@@ -146,12 +146,22 @@ img {
   margin-top: 60%;
 }
 
-.book-color {
+.book-color,
+.film-color {
   background-color: var(--backcolor);
   border-radius: 5px;
 }
 
 .book-color,
-.book-white {
+.book-white,
+.film-color,
+.film-white {
   padding: 15px;
+}
+
+.dino-film {
+  height: 600px;
+  width: 500px;
+  border-radius: 10px;
+  margin-top: 10%;
 }
