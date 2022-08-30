@@ -2,6 +2,8 @@
   --primary-font: "Aboreto", cursive;
   --secondary-font: "Montserrat", sans-serif;
   --backcolor: #e3f6f5;
+  --backcolor2: #fafafa;
+  --buttoncolor: #0d6efd;
 }
 
 h1 {
@@ -51,7 +53,7 @@ img {
 .button-link,
 .about-me-links {
   text-decoration: none;
-  border: 1px solid #0d6efd;
+  border: 1px solid var(--buttoncolor);
   padding: 10px;
   border-radius: 5px;
 }
@@ -135,4 +137,21 @@ img {
   .contact-me {
     margin-top: 5%;
   }
+}
+
+.dino-book {
+  height: 600px;
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 60%;
+}
+
+.book-color {
+  background-color: var(--backcolor);
+  border-radius: 5px;
+}
+
+.book-color,
+.book-white {
+  padding: 15px;
 }
