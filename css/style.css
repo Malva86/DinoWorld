@@ -137,6 +137,10 @@ img {
   .contact-me {
     margin-top: 5%;
   }
+
+  .footer-mail {
+    font-size: 14px;
+  }
 }
 
 .dino-book {
@@ -194,4 +198,14 @@ img {
 
 .raptor-red {
   margin-top: 15%;
+}
+
+@media (max-width: 768px) {
+  .footer-mail {
+    font-size: 14px;
+  }
+
+  .footer-text {
+    font-size: 24px;
+  }
 }
